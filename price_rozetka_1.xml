@@ -1,4 +1,4 @@
-<yml_catalog date="2025-02-24 18:10">
+<yml_catalog date="2025-02-26 11:13">
 <shop>
 <name>TechFil</name>
 <company>3999696</company>
@@ -337,12 +337,12 @@
 <price>350</price>
 <currencyId>UAH</currencyId>
 <categoryId>c4671751</categoryId>
-<picture>https://images.prom.ua/6490030111_pyetg-sinij-175.jpg</picture>
-<picture>https://images.prom.ua/6490037761_w159_h159_pyetg-sinij-175.jpg</picture>
-<picture>https://images.prom.ua/6490037846_w159_h159_pyetg-sinij-175.jpg</picture>
-<picture>https://images.prom.ua/6490037963_w159_h159_pyetg-sinij-175.jpg</picture>
-<picture>https://images.prom.ua/6490038066_w159_h159_pyetg-sinij-175.jpg</picture>
-<picture>https://images.prom.ua/6490038213_w159_h159_pyetg-sinij-175.jpg</picture>
+<picture>https://images.prom.ua/6490030111_w1280_h1280_petg074_blu_0.jpg</picture>
+<picture>https://images.prom.ua/6490037761_w1280_h1280_petg074_blu_1.jpg</picture>
+<picture>https://images.prom.ua/6490037846_w1280_h1280_petg074_blu_2.jpg</picture>
+<picture>https://images.prom.ua/6490037963_w1280_h1280_petg074_blu_3.jpg</picture>
+<picture>https://images.prom.ua/6490038066_w1280_h1280_petg074_blu_4.jpg</picture>
+<picture>https://images.prom.ua/6490038213_w1280_h1280_petg074_blu_5.jpg</picture>
 <vendor>TECHFIL</vendor>
 <stock_quantity>9</stock_quantity>
 <name>PETG-пластик Techfil марка 074 для 3D-принтера 1.75 мм 0.75 кг Синий (06)</name>
@@ -377,13 +377,13 @@
 <price>350</price>
 <currencyId>UAH</currencyId>
 <categoryId>c4671751</categoryId>
-<picture>https://images.prom.ua/6490057023_petg-zelenij-miks-haki.jpg</picture>
-<picture>https://images.prom.ua/6490059803_w159_h159_petg-zelenij-miks-haki.jpg</picture>
-<picture>https://images.prom.ua/6490057078_w159_h159_petg-zelenij-miks-haki.jpg</picture>
-<picture>https://images.prom.ua/6490057126_w159_h159_petg-zelenij-miks-haki.jpg</picture>
-<picture>https://images.prom.ua/6490057231_w159_h159_petg-zelenij-miks-haki.jpg</picture>
-<picture>https://images.prom.ua/6490057269_w159_h159_petg-zelenij-miks-haki.jpg</picture>
-<picture>https://images.prom.ua/6490057344_w159_h159_petg-zelenij-miks-haki.jpg</picture>
+<picture>https://images.prom.ua/6490057023_w1280_h1280_petg074_gre_0.jpg</picture>
+<picture>https://images.prom.ua/6490059803_w1280_h1280_green_mix.jpg</picture>
+<picture>https://images.prom.ua/6490057078_w1280_h1280_petg074_gre_1.jpg</picture>
+<picture>https://images.prom.ua/6490057126_w1280_h1280_petg074_gre_2.jpg</picture>
+<picture>https://images.prom.ua/6490057231_w1280_h1280_petg074_gre_3.jpg</picture>
+<picture>https://images.prom.ua/6490057269_w1280_h1280_petg074_gre_4.jpg</picture>
+<picture>https://images.prom.ua/6490057344_w1280_h1280_petg074_gre_5.jpg</picture>
 <vendor>TECHFIL</vendor>
 <stock_quantity>13</stock_quantity>
 <name>PETG-пластик Techfil марка 074 для 3D-принтера 1.75 мм 0.75 кг Зеленый Микс-Хаки (07)</name>
@@ -418,13 +418,13 @@
 <price>350</price>
 <currencyId>UAH</currencyId>
 <categoryId>c4671751</categoryId>
-<picture>https://images.prom.ua/6528407990_pyetg-sirij-175.jpg</picture>
-<picture>https://images.prom.ua/6528387834_w159_h159_pyetg-sirij-175.jpg</picture>
-<picture>https://images.prom.ua/6528390793_w159_h159_pyetg-sirij-175.jpg</picture>
-<picture>https://images.prom.ua/6528392259_w159_h159_pyetg-sirij-175.jpg</picture>
-<picture>https://images.prom.ua/6528394735_w159_h159_pyetg-sirij-175.jpg</picture>
-<picture>https://images.prom.ua/6528395652_w159_h159_pyetg-sirij-175.jpg</picture>
-<picture>https://images.prom.ua/6528396915_w159_h159_pyetg-sirij-175.jpg</picture>
+<picture>https://images.prom.ua/6528407990_w1280_h1280_petg074_gre_6.jpg</picture>
+<picture>https://images.prom.ua/6528387834_w1280_h1280_petg074_gre_0.jpg</picture>
+<picture>https://images.prom.ua/6528390793_w1280_h1280_petg074_gre_1.jpg</picture>
+<picture>https://images.prom.ua/6528392259_w1280_h1280_petg074_gre_2.jpg</picture>
+<picture>https://images.prom.ua/6528394735_w1280_h1280_petg074_gre_3.jpg</picture>
+<picture>https://images.prom.ua/6528395652_w1280_h1280_petg074_gre_4.jpg</picture>
+<picture>https://images.prom.ua/6528396915_w1280_h1280_petg074_gre_5.jpg</picture>
 <vendor>TECHFIL</vendor>
 <stock_quantity>16</stock_quantity>
 <name>PETG-пластик Techfil марка 074 для 3D-принтера 1.75 мм 0.75 кг Серый (11)</name>
