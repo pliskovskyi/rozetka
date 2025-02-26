@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2025-02-26 11:13">
+  <offers>
+    <!-- Товар 01 -->
+    <offer id="01" available="true">
+      <price>350</price>
+      <!-- Якщо стару ціну немає, тег <price_old> можна опустити -->
+      <category code="8939">Витратні матеріали для 3D-принтерів</category>
+      <attribute_set code="8939">Витратні матеріали для 3D-принтерів</attribute_set>
+      <picture>https://images.prom.ua/BGLXMkG03HFraspHV6Guj5d7lYAiz_jm1zGkV8tw5QQ=/6442724458_petg--petg.jpg</picture>
+      <picture>https://images.prom.ua/rH-Huzc-DJNheZ292db3rFdXHkkSH7Jk1K6k0E7fo9A=/6442725920_petg--petg.jpg</picture>
+      <picture>https://images.prom.ua/GsNnAAbbPPSRypt8mZ_HHgcCYtziCXQjwYgCF9DOZ8M=/6442624962_petg--petg.jpg</picture>
+      <picture>https://images.prom.ua/KQDOeX8byK7fig_vplZ0K6p2UKjx37j77kWYd8Z9Zpc=/6442728026_petg--petg.jpg</picture>
+      <picture>https://images.prom.ua/-coCGHspjhCvl4c6SJItly7JyVWPZTubCCiZqJYcuC4=/6442729422_petg--petg.jpg</picture>
+      <picture>https://images.prom.ua/FtE6mpk6UpmbqXj2nnC8iqfg9Ob-y9cl57K0ULChILQ=/6430438812_petg--petg.jpg</picture>
+      <vendor code="TECHFIL">TECHFIL</vendor>
+      <name lang="ru">PETG-пластик Techfil марка 074 для 3D-принтера 1.75 мм 0.75 кг Черный (01)</name>
+      <name lang="ua">PETG-пластик Techfil марка 074 для 3D-принтера 1.75 мм 0.75 кг Чорний (01)</name>
+      <description lang="ru"><![CDATA[
+        <div>
+          <p><strong>TECHFIL PETG-074: Качество, проверенное на каждом этапе.</strong></p>
+          <p>TECHFIL PETG-074 – это высококачественная нить, созданная для тех, кто ценит надежность, простоту печати и превосходный результат.</p>
+        </div>
+      ]]></description>
+      <description lang="ua"><![CDATA[
+        <div>
+          <p><strong>TECHFIL PETG-074: Якість, перевірена на кожному етапі.</strong></p>
+          <p>TECHFIL PETG-074 – це високоякісна нитка, створена для тих, хто цінує надійність, простоту друку та чудовий результат.</p>
+        </div>
+      ]]></description>
+      <country_of_origin code="UA">Україна</country_of_origin>
+      <!-- Додаткові параметри -->
+      <param name="Вид пластику для 3D-принтера">coPET (PETG)</param>
+      <param name="Колір">Чорний</param>
+      <param name="Кількість квітів у комплекті">1</param>
+      <param name="Діаметр нитки">1.75 мм</param>
+      <param name="Вид">Пластик для картриджа (нитка)</param>
+      <param name="Застосування">Майстер-моделювання</param>
+      <!-- Габаритні параметри (розміри у мм, вага у грамах) -->
+      <length>65</length>
+      <width>200</width>
+      <height>200</height>
+      <weight>750</weight>
+    </offer>
+    
+    <!-- Товар 02 -->
+    <offer id="02" available="true">
+      <price>350</price>
+      <category code="8939">Витратні матеріали для 3D-принтерів</category>
+      <attribute_set code="8939">Витратні матеріали для 3D-принтерів</attribute_set>
+      <picture>https://images.prom.ua/UeEy5sqVMx3h117uxAdcKD7mJjaHc5dw_EzhimGup6s=/6442714422_petg--petg.jpg</picture>
+      <picture>https://images.prom.ua/E2aPKpj2HhfmHAnz2nbqOHtQfPggnKMHRFJl1jszu3w=/6442715624_petg--petg.jpg</picture>
+      <picture>https://images.prom.ua/glsLTtUOBRTqpJbzS2KYI_1IJIr3Qqechyjn43xyBRU=/6442716651_petg--petg.jpg</picture>
+      <picture>https://images.prom.ua/BD91Pp4SzIpLIomhhJMgdm-AyOQkmVE7bbrta6gym90=/6442718822_petg--petg.jpg</picture>
+      <picture>https://images.prom.ua/itQr1i8uXQZcLcKGxZ2GLS2Npkc_Qw6Xz8j8xNR9HJg=/6442721212_petg--petg.jpg</picture>
+      <picture>https://images.prom.ua/8tAS3vOjAI9Wvo1rDEcqoGAEKop3ALmY1kL7igFbp8k=/6430438633_petg--petg.jpg</picture>
+      <vendor code="TECHFIL">TECHFIL</vendor>
+      <name lang="ru">PETG-пластик Techfil марка 074 для 3D-принтера 1.75 мм 0.75 кг Белый (02)</name>
+      <name lang="ua">PETG-пластик Techfil марка 074 для 3D-принтера 1.75 мм 0.75 кг Білий (02)</name>
+      <description lang="ru"><![CDATA[
+        <div>
+          <p><strong>TECHFIL PETG-074: Качество, проверенное на каждом этапе.</strong></p>
+          <p>Высококачественная нить для стабильных и предсказуемых результатов печати.</p>
+        </div>
+      ]]></description>
+      <description lang="ua"><![CDATA[
+        <div>
+          <p><strong>TECHFIL PETG-074: Якість, перевірена на кожному етапі.</strong></p>
+          <p>Високоякісна нитка для стабільного та передбачуваного друку.</p>
+        </div>
+      ]]></description>
+      <country_of_origin code="UA">Україна</country_of_origin>
+      <param name="Вид пластику для 3D-принтера">coPET (PETG)</param>
+      <param name="Колір">Белый</param>
+      <param name="Кількість квітів у комплекті">1</param>
+      <param name="Діаметр нитки">1.75 мм</param>
+      <param name="Вид">Пластик для картриджа (нитка)</param>
+      <param name="Застосування">Майстер-моделювання</param>
+      <length>65</length>
+      <width>200</width>
+      <height>200</height>
+      <weight>750</weight>
+    </offer>
+    
+    <!-- Товар 03 -->
+    <offer id="03" available="true">
+      <price>350</price>
+      <category code="8939">Витратні матеріали для 3D-принтерів</category>
+      <attribute_set code="8939">Витратні матеріали для 3D-принтерів</attribute_set>
+      <picture>https://images.prom.ua/-coCGHspjhCvl4c6SJItly7JyVWPZTubCCiZqJYcuC4=/6442729422_petg--petg.jpg</picture>
+      <picture>https://images.prom.ua/FtE6mpk6UpmbqXj2nnC8iqfg9Ob-y9cl57K0ULChILQ=/6430438812_petg--petg.jpg</picture>
+      <picture>https://images.prom.ua/BGLXMkG03HFraspHV6Guj5d7lYAiz_jm1zGkV8tw5QQ=/6442724458_petg--petg.jpg</picture>
+      <picture>https://images.prom.ua/rH-Huzc-DJNheZ292db3rFdXHkkSH7Jk1K6k0E7fo9A=/6442725920_petg--petg.jpg</picture>
+      <picture>https://images.prom.ua/GsNnAAbbPPSRypt8mZ_HHgcCYtziCXQjwYgCF9DOZ8M=/6442624962_petg--petg.jpg</picture>
+      <picture>https://images.prom.ua/KQDOeX8byK7fig_vplZ0K6p2UKjx37j77kWYd8Z9Zpc=/6442728026_petg--petg.jpg</picture>
+      <vendor code="TECHFIL">TECHFIL</vendor>
+      <name lang="ru">PETG-пластик Techfil марка 074 для 3D-принтера 1.75 мм 0.75 кг Натуральный (03)</name>
+      <name lang="ua">PETG-пластик Techfil марка 074 для 3D-принтера 1.75 мм 0.75 кг Натуральний (03)</name>
+      <description lang="ru"><![CDATA[
+        <div>
+          <p><strong>TECHFIL PETG-074:</strong> Высококачественная нить для стабильной печати.</p>
+        </div>
+      ]]></description>
+      <description lang="ua"><![CDATA[
+        <div>
+          <p><strong>TECHFIL PETG-074:</strong> Високоякісна нитка для стабільного друку.</p>
+        </div>
+      ]]></description>
+      <country_of_origin code="UA">Україна</country_of_origin>
+      <param name="Вид пластику для 3D-принтера">coPET (PETG)</param>
+      <param name="Колір">Натуральный</param>
+      <param name="Кількість квітів у комплекті">1</param>
+      <param name="Діаметр нитки">1.75 мм</param>
+      <param name="Вид">Пластик для картриджа (нитка)</param>
+      <param name="Застосування">Майстер-моделювання</param>
+      <length>65</length>
+      <width>200</width>
+      <height>200</height>
+      <weight>750</weight>
+    </offer>
+    
+    <!-- Товар 08 (ABS) -->
+    <offer id="08" available="true">
+      <price>500</price>
+      <category code="8939">Витратні матеріали для 3D-принтерів</category>
+      <attribute_set code="8939">Витратні матеріали для 3D-принтерів</attribute_set>
+      <picture>https://images.prom.ua/HzPJePn2mlDVv9mD9Bm_nFTBm2VMF8NCtAx_tggY1EI=/6442628733_abs--abs.jpg</picture>
+      <picture>https://images.prom.ua/I40IkqgBOGT0fR4XaCvvlxV4c6OU9nexMqyWJUe4Y8Q=/6442629399_abs--abs.jpg</picture>
+      <picture>https://images.prom.ua/qWFXAGnhUehl300mMRc9k96V6ZRDdh3Z403kIEiAjtI=/6442643552_abs--abs.jpg</picture>
+      <picture>https://images.prom.ua/oE9AsmG0ZEx-FMYjf-zjKjvZiI8w85eiRFtxebxU9DM=/6442625968_abs--abs.jpg</picture>
+      <picture>https://images.prom.ua/-GdtI0CJk4d5_Hfrxaa-eDIA0ACm9pD1gh2uYkOa33g=/6442644814_abs--abs.jpg</picture>
+      <picture>https://images.prom.ua/c79t8NrhgMzWx_K6TmUfPi5G-BoXNy2CLvS6KAiH3VY=/6395564228_abs--abs.jpg</picture>
+      <picture>https://images.prom.ua/NlNXAm5H7nkI9EufAv-QU2hRPwX0gTSMsB4KT-o4oWk=/6395561367_abs--abs.jpg</picture>
+      <vendor code="TECHFIL">TECHFIL</vendor>
+      <name lang="ru">ABS-пластик Techfil марка 121 для 3D‑принтера 1.75 мм 0.75 кг Натуральный (08)</name>
+      <name lang="ua">ABS-пластик Techfil марка 121 для 3D‑принтера 1.75 мм 0.75 кг Натуральний (08)</name>
+      <description lang="ru"><![CDATA[
+        <div>
+          <p><strong>TECHFIL ABS-121:</strong> Надёжность и качество для ваших проектов.</p>
+        </div>
+      ]]></description>
+      <description lang="ua"><![CDATA[
+        <div>
+          <p><strong>TECHFIL ABS-121:</strong> Надійність та якість для ваших проєктів.</p>
+        </div>
+      ]]></description>
+      <country_of_origin code="UA">Україна</country_of_origin>
+      <param name="Вид пластику для 3D-принтера">ABS</param>
+      <param name="Колір">Натуральный</param>
+      <param name="Кількість квітів у комплекті">1</param>
+      <param name="Діаметр нитки">1.75 мм</param>
+      <param name="Вид">Пластик для картриджа (нитка)</param>
+      <param name="Застосування">Майстер-моделювання</param>
+      <length>65</length>
+      <width>200</width>
+      <height>200</height>
+      <weight>750</weight>
+    </offer>
+    
+    <!-- Товар 09 (ABS) -->
+    <offer id="09" available="true">
+      <price>500</price>
+      <category code="8939">Витратні матеріали для 3D‑принтерів</category>
+      <attribute_set code="8939">Витратні матеріали для 3D‑принтерів</attribute_set>
+      <picture>https://images.prom.ua/JCarwx77aWRpuKfpwqMLXDby90GBJP96nCnZwN-svvA=/6442625376_abs--abs.jpg</picture>
+      <picture>https://images.prom.ua/92BdOBjWahXcMozBA8_G1MkQJ8ny8L7-7-bI-jMsvwM=/6442625529_abs--abs.jpg</picture>
+      <picture>https://images.prom.ua/xOfbFdT1Y8mG4zdW_beeGm7KKOaxBj1ftiYhn7Tmgsc=/6442625680_abs--abs.jpg</picture>
+      <picture>https://images.prom.ua/oE9AsmG0ZEx-FMYjf-zjKjvZiI8w85eiRFtxebxU9DM=/6442625968_abs--abs.jpg</picture>
+      <picture>https://images.prom.ua/Mgoi-Uj0U6WoNTRUCKxJCeK1__7fcGK-HZMGwO09-Ps=/6442626490_abs--abs.jpg</picture>
+      <picture>https://images.prom.ua/SJUqbaN7TuyndMW_xeapNx450lSkf2V0q9bi51qXEPA=/6430437816_abs--abs.jpg</picture>
+      <vendor code="TECHFIL">TECHFIL</vendor>
+      <name lang="ru">ABS-пластик Techfil марка 121 для 3D‑принтера 1.75 мм 0.75 кг Черный (09)</name>
+      <name lang="ua">ABS-пластик Techfil марка 121 для 3D‑принтера 1.75 мм 0.75 кг Чорний (09)</name>
+      <description lang="ru"><![CDATA[
+        <div>
+          <p><strong>TECHFIL ABS-121:</strong> Надёжность и качество для ваших проектов.</p>
+        </div>
+      ]]></description>
+      <description lang="ua"><![CDATA[
+        <div>
+          <p><strong>TECHFIL ABS-121:</strong> Надійність та якість для ваших проєктів.</p>
+        </div>
+      ]]></description>
+      <country_of_origin code="UA">Україна</country_of_origin>
+      <param name="Вид пластику для 3D-принтера">ABS</param>
+      <param name="Колір">Черный</param>
+      <param name="Кількість квітів у комплекті">1</param>
+      <param name="Діаметр нитки">1.75 мм</param>
+      <param name="Вид">Пластик для картриджа (нитка)</param>
+      <param name="Застосування">Майстер-моделювання</param>
+      <length>65</length>
+      <width>200</width>
+      <height>200</height>
+      <weight>750</weight>
+    </offer>
+    
+    <!-- Товар 10 (ABS) -->
+    <offer id="10" available="true">
+      <price>550</price>
+      <category code="8939">Витратні матеріали для 3D‑принтерів</category>
+      <attribute_set code="8939">Витратні матеріали для 3D‑принтерів</attribute_set>
+      <picture>https://images.prom.ua/If4y_uiLP_CwDQOWvisqM2VLZuKgXK2BVwozXmrnsX8=/6442623677_abs--abs.jpg</picture>
+      <picture>https://images.prom.ua/K3t-Csj6Tf88tLzPqWWhgMLnYEb9E1XKZcd0snGfUz8=/6442624714_abs--abs.jpg</picture>
+      <picture>https://images.prom.ua/GsNnAAbbPPSRypt8mZ_HHgcCYtziCXQjwYgCF9DOZ8M=/6442624962_abs--abs.jpg</picture>
+      <picture>https://images.prom.ua/giRuyhT_1-3dImfWSxOK6Dl800Tenlx1X-ictdxfxm0=/6442625077_abs--abs.jpg</picture>
+      <picture>https://images.prom.ua/oOnEFhzHor1CNgxNCcszrI5eEG_2z1V2q1b9qOqQRuA=/6442625194_abs--abs.jpg</picture>
+      <picture>https://images.prom.ua/HHiPQCIotXyhGYkRrZhl2JW3eOtronj2gX3iGOgh7HU=/6430437399_abs--abs.jpg</picture>
+      <vendor code="TECHFIL">TECHFIL</vendor>
+      <name lang="ru">ABS-пластик Techfil марка 757 для 3D‑принтера 1.75 мм 0.75 кг Черный (10)</name>
+      <name lang="ua">ABS-пластик Techfil марка 757 для 3D‑принтера 1.75 мм 0.75 кг Чорний (10)</name>
+      <description lang="ru"><![CDATA[
+        <div>
+          <p><strong>TECHFIL ABS-757:</strong> Прочность и надежность для вашей 3D печати.</p>
+        </div>
+      ]]></description>
+      <description lang="ua"><![CDATA[
+        <div>
+          <p><strong>TECHFIL ABS-757:</strong> Міцність та надійність для вашого 3D друку.</p>
+        </div>
+      ]]></description>
+      <country_of_origin code="UA">Україна</country_of_origin>
+      <param name="Вид пластику для 3D-принтера">ABS</param>
+      <param name="Колір">Черный</param>
+      <param name="Кількість квітів у комплекті">1</param>
+      <param name="Діаметр нитки">1.75 мм</param>
+      <param name="Вид">Пластик для картриджа (нитка)</param>
+      <param name="Застосування">Майстер-моделювання</param>
+      <length>65</length>
+      <width>200</width>
+      <height>200</height>
+      <weight>750</weight>
+    </offer>
+    
+    <!-- Товар 04 -->
+    <offer id="04" available="true">
+      <price>350</price>
+      <category code="8939">Витратні матеріали для 3D‑принтерів</category>
+      <attribute_set code="8939">Витратні матеріали для 3D‑принтерів</attribute_set>
+      <picture>https://images.prom.ua/E3xIVSraO2unEnBGVXVByBnuGGgiII4RLatq21V3XFw=/6479166749_petg--petg.jpg</picture>
+      <picture>https://images.prom.ua/e52hswdFuorm0ayJLa-UUrKhGayZJse1CNo1kvA5Gs0=/6479170730_petg--petg.jpg</picture>
+      <picture>https://images.prom.ua/LLf6YlU2HZ9TlgHXoZncYyajchrSuLuRpaqzl1pLpj8=/6479170744_petg--petg.jpg</picture>
+      <picture>https://images.prom.ua/pFU0sEOBlextz8CsEhFwDiyzR1GRxxLHSvfR-YF3VSg=/6479170783_petg--petg.jpg</picture>
+      <picture>https://images.prom.ua/2iVKG5nz7kq6BukU6FTu05_IqxCJ17rJqSW5zzBowf4=/6479171128_petg--petg.jpg</picture>
+      <picture>https://images.prom.ua/6y9C4Fzlmnb7Cv2Bo2d4Oz8TauzWeppPe-FNB8QasAs=/6479170842_petg--petg.jpg</picture>
+      <vendor code="TECHFIL">TECHFIL</vendor>
+      <name lang="ru">PETG-пластик Techfil марка 074 для 3D‑принтера 1.75 мм 0.75 кг Красный (04)</name>
+      <name lang="ua">PETG-пластик Techfil марка 074 для 3D‑принтера 1.75 мм 0.75 кг Червоний (04)</name>
+      <description lang="ru"><![CDATA[
+        <div>
+          <p><strong>TECHFIL PETG-074:</strong> Высокое качество печати с гарантией стабильности.</p>
+        </div>
+      ]]></description>
+      <description lang="ua"><![CDATA[
+        <div>
+          <p><strong>TECHFIL PETG-074:</strong> Висока якість друку з гарантією стабільності.</p>
+        </div>
+      ]]></description>
+      <country_of_origin code="UA">Україна</country_of_origin>
+      <param name="Вид пластику для 3D-принтера">coPET (PETG)</param>
+      <param name="Колір">Красный</param>
+      <param name="Кількість квітів у комплекті">1</param>
+      <param name="Діаметр нитки">1.75 мм</param>
+      <param name="Вид">Пластик для картриджа (нитка)</param>
+      <param name="Застосування">Майстер-моделювання</param>
+      <length>65</length>
+      <width>200</width>
+      <height>200</height>
+      <weight>750</weight>
+    </offer>
+    
+    <!-- Товар 05 -->
+    <offer id="05" available="true">
+      <price>350</price>
+      <category code="8939">Витратні матеріали для 3D‑принтерів</category>
+      <attribute_set code="8939">Витратні матеріали для 3D‑принтерів</attribute_set>
+    
