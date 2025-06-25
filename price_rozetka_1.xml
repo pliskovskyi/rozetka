@@ -237,6 +237,7 @@
 <article>10</article>
 <url>https://techfil.prom.ua/p2437948985-abs-abs-757.html</url>
 <price>450</price>
+<price_promo>387</price_promo>
 <currencyId>UAH</currencyId>
 <categoryId>c4671751</categoryId>
 <picture>https://images.prom.ua/6717968760_w1280_h1280_vertical_abs757_black.jpg</picture>
@@ -459,7 +460,8 @@
 <offer id="2563941285" available="true">
 <article>12</article>
 <url>https://techfil.prom.ua/ua/p2653773416-asa-chernyj-techfil.html</url>
-<price>500</price>
+<price>470</price>
+<price_promo>404</price_promo>
 <currencyId>UAH</currencyId>
 <categoryId>c4671751</categoryId>
 <picture>https://images.prom.ua/6717989154_w1280_h1280_vertical_asa_black.jpg</picture>
@@ -496,7 +498,7 @@
 <offer id="2564030958" available="true">
 <article>13</article>
 <url>https://techfil.prom.ua/p2564030958-asa-naturalnyj-molochno.html</url>
-<price>500</price>
+<price>470</price>
 <currencyId>UAH</currencyId>
 <categoryId>c4671751</categoryId>
 <picture>https://images.prom.ua/6717990228_w1280_h1280_vertical_asa_natutal.jpg</picture>
