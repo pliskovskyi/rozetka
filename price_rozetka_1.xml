@@ -273,15 +273,14 @@
 <offer id="2437948985" available="true">
 <article>10</article>
 <url>https://techfil.prom.ua/p2437948985-abs-abs-757.html</url>
-<price>450</price>
-<price_promo>387</price_promo>
+<price>400</price>
 <currencyId>UAH</currencyId>
 <categoryId>c4671751</categoryId>
 <picture>https://images.prom.ua/6717968760_w1280_h1280_vertical_abs757_black.jpg</picture>
 <picture>https://images.prom.ua/6717968855_w1280_h1280_square_abs757_black.jpg</picture>
 <picture>https://images.prom.ua/6717968944_w1280_h1280_horizontal_abs757_black.jpg</picture>
 <vendor>TECHFIL</vendor>
-<stock_quantity>33</stock_quantity>
+<stock_quantity>20</stock_quantity>
 <name>ABS-пластик Techfil марка 757 для 3D-принтера 1.75 мм 0.75 кг Черный (10)</name>
 <name_ua>ABS-пластик Techfil марка 757 для 3D-принтера 1.75 мм 0.75 кг Чорний (10)</name_ua>
 <description>
@@ -318,7 +317,7 @@
 <picture>https://images.prom.ua/6717958511_w1280_h1280_square_petg_red.jpg</picture>
 <picture>https://images.prom.ua/6717958595_w1280_h1280_horizontal_petg_red.jpg</picture>
 <vendor>TECHFIL</vendor>
-<stock_quantity>30</stock_quantity>
+<stock_quantity>20</stock_quantity>
 <name>PETG-пластик Techfil марка 074 для 3D-принтера 1.75 мм 0.75 кг Красный (04)</name>
 <name_ua>PETG-пластик Techfil марка 074 для 3D-принтера 1.75 мм 0.75 кг Червоний (04)</name_ua>
 <description>
@@ -497,8 +496,7 @@
 <offer id="2563941285" available="true">
 <article>12</article>
 <url>https://techfil.prom.ua/ua/p2653773416-asa-chernyj-techfil.html</url>
-<price>470</price>
-<price_promo>404</price_promo>
+<price>400</price>
 <currencyId>UAH</currencyId>
 <categoryId>c4671751</categoryId>
 <picture>https://images.prom.ua/6717989154_w1280_h1280_vertical_asa_black.jpg</picture>
@@ -535,7 +533,7 @@
 <offer id="2564030958" available="true">
 <article>13</article>
 <url>https://techfil.prom.ua/p2564030958-asa-naturalnyj-molochno.html</url>
-<price>470</price>
+<price>400</price>
 <currencyId>UAH</currencyId>
 <categoryId>c4671751</categoryId>
 <picture>https://images.prom.ua/6717990228_w1280_h1280_vertical_asa_natutal.jpg</picture>
