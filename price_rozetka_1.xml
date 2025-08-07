@@ -20,7 +20,7 @@
 <picture>https://images.prom.ua/6717953983_w1280_h1280_square_petg_black.jpg</picture>
 <picture>https://images.prom.ua/6717954057_w1280_h1280_horizontal_petg_black.jpg</picture>
 <vendor>TECHFIL</vendor>
-<stock_quantity>25</stock_quantity>
+<stock_quantity>3</stock_quantity>
 <name>PETG-пластик Techfil марка 074 для 3D-принтера 1.75 мм 0.75 кг Черный (01)</name>
 <name_ua>PETG-пластик Techfil марка 074 для 3D-принтера 1.75 мм 0.75 кг Чорний (01)</name_ua>
 <description>
@@ -687,5 +687,6 @@
 </offers>
 </shop>
 </yml_catalog>
+
 
 
