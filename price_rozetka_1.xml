@@ -679,39 +679,6 @@
         <param name="Країна реєстрації бренду">Україна</param>
         <param name="Гарантія">14 днів</param>
       </offer>
-      <offer id="2661886517" available="true">
-        <article>10</article>
-        <url>https://techfil.com.ua/petg074-750-transit/</url>
-        <price>480</price>
-        <currencyId>UAH</currencyId>
-        <categoryId>c4671751</categoryId>
-        <picture>https://techfil.com.ua/content/images/31/17400062245944_%2Be9e833f348.jpg</picture>
-        <picture>https://techfil.com.ua/content/images/31/67859705139449_%2B803c71aefd.jpg</picture>
-        <picture>https://techfil.com.ua/content/images/31/86014789730816_%2B5652193307.jpg</picture>
-        <vendor>TECHFIL</vendor>
-        <stock_quantity>1</stock_quantity>
-        <name>PETG-пластик Techfil марка 074 для 3D-принтера 1.75 мм 0.75 кг Переходный (15)</name>
-        <name_ua>PETG-пластик Techfil марка 074 для 3D-принтера 1.75 мм 0.75 кг Перехідний</name_ua>
-        <description><![CDATA[<p>PETG переходной Techfil 074 — один из тех материалов, где результат не предсказан заранее. Цвет плавно меняется по всей длине нити: от одного оттенка к другому и далее. Каждая деталь получает собственный уникальный рисунок, который невозможно повторить. Это и есть главная ценность — не цвет, а неожиданность.</p><h3>Где переходной PETG особенно выигрывает</h3><ul><li><strong>Подарки и сувениры:</strong> невозможно купить «такую же» деталь — каждое изделие уникально.</li><li><strong>Декоративные изделия:</strong> вазы, фигурки, подставки — живой цветовой эффект без ручной росписи.</li><li><strong>Косплей и реквизит:</strong> фэнтези-персонажи и реквизит с эффектом перехода.</li><li><strong>Детские изделия:</strong> ярко, безопасный материал, уникальное для каждого ребёнка.</li></ul><h3>Параметры печати</h3><table border="1" cellpadding="6" style="border-collapse:collapse;width:100%;margin:10px 0"><tbody><tr style="background:#e8f4e8"><th>Параметр</th><th>Значение</th></tr><tr><td>Температура сопла</td><td><strong>240–270°C</strong></td></tr><tr><td>Температура стола</td><td>60–80°C</td></tr><tr><td>Скорость</td><td>40–150 мм/с</td></tr><tr><td>Обдув</td><td>0–40%</td></tr><tr><td>Закрытая камера</td><td>Не обязательна</td></tr></tbody></table><h3>Характеристики материала</h3><table border="1" cellpadding="6" style="border-collapse:collapse;width:100%;margin:10px 0"><tbody><tr style="background:#e8f4e8"><th>Параметр</th><th>Значение</th></tr><tr><td>Сырьё</td><td>Selenis Bondz GG074 (Португалия)</td></tr><tr><td>Tg (ASTM D3418)</td><td>80°C</td></tr><tr><td>Плотность (ASTM D-792)</td><td>1,29 г/см³</td></tr><tr><td>Пищевой допуск</td><td>EU Reg 10/2011 ✓</td></tr><tr><td>Диаметр / допуск</td><td>1,75 мм ±0,05 мм</td></tr></tbody></table>]]></description>
-        <description_ua><![CDATA[<p>PETG перехідний Techfil 074 — один з тих матеріалів, де результат не передбачений заздалегідь. Колір плавно змінюється по всій довжині нитки: від одного відтінку до іншого і далі. Кожна деталь отримує власний унікальний малюнок, який неможливо повторити. Це й є головна цінність — не колір, а несподіванка.</p><h3>Де перехідний PETG особливо виграє</h3><ul><li><strong>Подарунки та сувеніри:</strong> неможливо купити «таку ж» деталь — кожен виріб унікальний.</li><li><strong>Декоративні вироби:</strong> вази, фігурки, підставки — живий колірний ефект без ручного розпису.</li><li><strong>Косплей і реквізит:</strong> фентезі-персонажі та реквізит з ефектом переходу.</li><li><strong>Дитячі вироби:</strong> яскраво, безпечний матеріал, унікальне для кожної дитини.</li></ul><h3>Параметри друку</h3><table border="1" cellpadding="6" style="border-collapse:collapse;width:100%;margin:10px 0"><tbody><tr style="background:#e8f4e8"><th>Параметр</th><th>Значення</th></tr><tr><td>Температура сопла</td><td><strong>240–270°C</strong></td></tr><tr><td>Температура столу</td><td>60–80°C</td></tr><tr><td>Швидкість</td><td>40–150 мм/с</td></tr><tr><td>Обдув</td><td>0–40%</td></tr><tr><td>Закрита камера</td><td>Не обов'язково</td></tr></tbody></table><h3>Характеристики матеріалу</h3><table border="1" cellpadding="6" style="border-collapse:collapse;width:100%;margin:10px 0"><tbody><tr style="background:#e8f4e8"><th>Параметр</th><th>Значення</th></tr><tr><td>Сировина</td><td>Selenis Bondz GG074 (Португалія)</td></tr><tr><td>Tg (ASTM D3418)</td><td>80°C</td></tr><tr><td>Щільність (ASTM D-792)</td><td>1,29 г/см³</td></tr><tr><td>Харчовий допуск</td><td>EU Reg 10/2011 ✓</td></tr><tr><td>Діаметр / допуск</td><td>1,75 мм ±0,05 мм</td></tr></tbody></table>]]></description_ua>
-        <param name="Вид пластику для 3D-принтера">coPET (PETG)</param>
-        <param name="Колір">Перехідний</param>
-        <param name="Кількість квітів у комплекті">1</param>
-        <param name="Діаметр нитки">1.75 мм</param>
-        <param name="Країна-виробник">Україна</param>
-        <param name="Вид">Пластик для картриджа (нитка)</param>
-        <param name="Застосування">Майстер-моделювання</param>
-        <param name="Вага">0.75 кг</param>
-        <param name="Рекомендована температура роботи">240-270 ℃</param>
-        <param name="Товщина шару">0.05 - 0.4 мм</param>
-        <param name="Розміри (Д х Ш х В), мм">65 x 200 x 200</param>
-        <param name="Комплект постачання">Філамент
-Упаковка</param>
-        <param name="Додаткові характеристики">FDM (моделювання методом наплавлення)</param>
-        <param name="Кількість в упаковці, шт">1</param>
-        <param name="Країна реєстрації бренду">Україна</param>
-        <param name="Гарантія">14 днів</param>
-      </offer>
       </offers>
   </shop>
 </yml_catalog>
