@@ -1,0 +1,39 @@
+name: Оновлення прайсу для Розетки
+
+on:
+  schedule:
+    # щогодини о :20 (Розетка забирає файл раз на 60 хв)
+    - cron: '20 * * * *'
+  workflow_dispatch:      # кнопка ручного запуску у вкладці Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: price-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Перерахувати ціни та залишки
+        run: python update_price.py
+
+      - name: Закомітити зміни
+        run: |
+          if [ -z "$(git status --porcelain price_rozetka_1.xml)" ]; then
+            echo "Змін немає — коміт не потрібен"
+            exit 0
+          fi
+          git config user.name  "techfil-price-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add price_rozetka_1.xml
+          git commit -m "Ціни та залишки з Хорошопа: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
