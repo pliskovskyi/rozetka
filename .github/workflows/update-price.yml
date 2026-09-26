@@ -2,7 +2,7 @@ name: Оновлення прайсу для Розетки
 
 on:
   schedule:
-    # щогодини о :20 (Розетка забирає файл раз на 60 хв)
+    # щогодини о :20 (Розетка забирає файл раз на 60 хв, Пром — раз на 4 год)
     - cron: '20 * * * *'
   workflow_dispatch:      # кнопка ручного запуску у вкладці Actions
 
@@ -28,12 +28,12 @@ jobs:
 
       - name: Закомітити зміни
         run: |
-          if [ -z "$(git status --porcelain price_rozetka_1.xml)" ]; then
+          if [ -z "$(git status --porcelain price_rozetka_1.xml price_prom_1.xml)" ]; then
             echo "Змін немає — коміт не потрібен"
             exit 0
           fi
           git config user.name  "techfil-price-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add price_rozetka_1.xml
+          git add price_rozetka_1.xml price_prom_1.xml
           git commit -m "Ціни та залишки з Хорошопа: $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
