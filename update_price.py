@@ -1,18 +1,22 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Оновлює ціни та залишки у price_rozetka_1.xml даними з Хорошопа.
+Оновлює ціни та залишки у price_rozetka_1.xml і price_prom_1.xml
+даними з Хорошопа.
 
-Принцип: файл НЕ перезбирається парсером. Правляться рядково лише три
+Принцип: файли НЕ перезбираються парсером. Правляться рядково лише три
 значення в кожному <offer>, решта байтів лишається недоторканою —
 CDATA, форматування, описи, характеристики.
 
-  available="..."          <- наявність у Хорошопі
-  <price>...</price>       <- ціна Хорошопа * 1,205, округл. до 5 (half-up)
-  <stock_quantity>...</>   <- залишок Хорошопа
+  available="..."             <- наявність у Хорошопі
+  <price>...</price>          <- ціна Хорошопа * 1,205, округл. до 5 (half-up)
+  <stock_quantity>...</>      <- залишок Хорошопа (файл Розетки)
+  <quantity_in_stock>...</>   <- залишок Хорошопа (файл Прому)
+
+Ціни на Промі ті самі, що й на Розетці, тому націнка одна для обох файлів.
 
 Товар, якого немає у фіді Хорошопа, лишається без змін.
-Якщо фід недоступний або порожній — скрипт падає, файл не чіпається.
+Якщо фід недоступний або порожній — скрипт падає, файли не чіпаються.
 
 Атрибут date= у <yml_catalog> оновлюється при КОЖНОМУ запуску, навіть якщо
 ціни та залишки не змінилися — інакше Розетка вважає файл ідентичним
@@ -27,9 +31,14 @@ import xml.etree.ElementTree as ET
 from decimal import Decimal, ROUND_HALF_UP
 
 PROM_FEED = "https://techfil.com.ua/content/export/1ea2a9dbded31e6279a51939d1a50079.xml"
-TARGET    = "price_rozetka_1.xml"
 
-MARKUP    = "1.205"   # +20,5 % на комісію Розетки
+# (файл, тег залишку в цьому файлі)
+TARGETS = [
+    ("price_rozetka_1.xml", "stock_quantity"),
+    ("price_prom_1.xml",    "quantity_in_stock"),
+]
+
+MARKUP    = "1.205"   # +20,5 % на комісію Розетки (і та сама ціна на Промі)
 ROUND_TO  = 5         # округлення до найближчих 5 грн
 TIMEOUT   = 60
 
@@ -40,7 +49,7 @@ def fetch(url):
         return r.read()
 
 
-def price_for_rozetka(base):
+def price_for_marketplace(base):
     """20,5 % націнки, округлення до найближчих 5 грн, половина — вгору.
 
     500,00 * 1,205 = 602,50 -> 605   (round() у Python дав би 600)
@@ -77,45 +86,50 @@ def load_horoshop():
     return out
 
 
-OFFER_RE = re.compile(r"<offer\b[^>]*>.*?</offer>", re.S)
-URL_RE   = re.compile(r"<url>\s*(.*?)\s*</url>", re.S)
-SLUG_RE  = re.compile(r"techfil\.com\.ua/([a-z0-9-]+)/?\s*$", re.I)
-AVAIL_RE = re.compile(r'(<offer\b[^>]*?\savailable=")([^"]*)(")')
-PRICE_RE = re.compile(r"(<price>)([^<]*)(</price>)")
-QTY_RE   = re.compile(r"(<stock_quantity>)([^<]*)(</stock_quantity>)")
+OFFER_RE  = re.compile(r"<offer\b[^>]*>.*?</offer>", re.S)
+URL_RE    = re.compile(r"<url>\s*(.*?)\s*</url>", re.S)
+VENDOR_RE = re.compile(r"<vendorCode>\s*(.*?)\s*</vendorCode>", re.S)
+# слаг у кінці URL картки; /ru/ перед слагом (файл Прому) не заважає
+SLUG_RE   = re.compile(r"techfil\.com\.ua/(?:ru/)?([a-z0-9-]+)/?\s*$", re.I)
+AVAIL_RE  = re.compile(r'(<offer\b[^>]*?\savailable=")([^"]*)(")')
+PRICE_RE  = re.compile(r"(<price>)([^<]*)(</price>)")
 
 
-def main():
-    horoshop = load_horoshop()
-    if not horoshop:
-        sys.exit("Prom-фід Хорошопа порожній або недоступний — файл не чіпаємо")
-    print("Хорошоп: отримано позицій — %d" % len(horoshop))
+def article_of(block):
+    """Артикул offer: спершу <vendorCode>, інакше — слаг з <url>."""
+    m = VENDOR_RE.search(block)
+    if m and m.group(1).strip():
+        return m.group(1).strip().upper()
+    m = URL_RE.search(block)
+    if m:
+        s = SLUG_RE.search(m.group(1))
+        if s:
+            return s.group(1).upper()
+    return None
 
-    with open(TARGET, "r", encoding="utf-8", newline="") as f:
+
+def patch_file(target, qty_tag, horoshop, stamp):
+    qty_re = re.compile(r"(<%s>)([^<]*)(</%s>)" % (qty_tag, qty_tag))
+
+    with open(target, "r", encoding="utf-8", newline="") as f:
         text = f.read()
 
     changes, missing = [], []
 
     def patch_offer(match):
         block = match.group(0)
-
-        m = URL_RE.search(block)
-        art = None
-        if m:
-            s = SLUG_RE.search(m.group(1))
-            art = s.group(1).upper() if s else None
-
+        art = article_of(block)
         src = horoshop.get(art) if art else None
         if not src:
-            missing.append(art or "(без url)")
+            missing.append(art or "(без артикула)")
             return block
 
-        new_price = str(price_for_rozetka(src["price"]))
+        new_price = str(price_for_marketplace(src["price"]))
         new_qty   = str(src["qty"])
         new_avail = "true" if src["available"] else "false"
 
         pm = PRICE_RE.search(block)
-        qm = QTY_RE.search(block)
+        qm = qty_re.search(block)
         am = AVAIL_RE.search(block)
         old_price = pm.group(2).strip() if pm else "-"
         old_qty   = qm.group(2).strip() if qm else "-"
@@ -128,11 +142,12 @@ def main():
 
         block = AVAIL_RE.sub(lambda x: x.group(1) + new_avail + x.group(3), block, count=1)
         block = PRICE_RE.sub(lambda x: x.group(1) + new_price + x.group(3), block, count=1)
-        block = QTY_RE.sub(lambda x: x.group(1) + new_qty + x.group(3), block, count=1)
+        block = qty_re.sub(lambda x: x.group(1) + new_qty + x.group(3), block, count=1)
         return block
 
     patched = OFFER_RE.sub(patch_offer, text)
 
+    print("== %s" % target)
     if missing:
         print("Немає у фіді Хорошопа (лишені без змін): %s"
               % ", ".join(sorted(set(missing))))
@@ -150,7 +165,6 @@ def main():
     # з попередньою»). Через це будь-яке розходження в кабінеті висіло б доти,
     # доки щось не зміниться в Хорошопі. Свіжий date= гарантує, що кожна
     # синхронізація реально застосується.
-    stamp = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M")
     patched = re.sub(r'(<yml_catalog[^>]*\bdate=")[^"]*(")',
                      lambda x: x.group(1) + stamp + x.group(2), patched, count=1)
 
@@ -158,16 +172,28 @@ def main():
     before_n = len(OFFER_RE.findall(text))
     after_n  = len(OFFER_RE.findall(patched))
     if before_n != after_n:
-        sys.exit("Кількість offer змінилася (%d -> %d) — скасовано" % (before_n, after_n))
+        sys.exit("%s: кількість offer змінилася (%d -> %d) — скасовано"
+                 % (target, before_n, after_n))
     try:
         ET.fromstring(patched.encode("utf-8"))
     except ET.ParseError as e:
-        sys.exit("Результат не є валідним XML (%s) — скасовано" % e)
+        sys.exit("%s: результат не є валідним XML (%s) — скасовано" % (target, e))
 
-    with open(TARGET, "w", encoding="utf-8", newline="") as f:
+    with open(target, "w", encoding="utf-8", newline="") as f:
         f.write(patched)
 
-    print("Файл %s оновлено" % TARGET)
+    print("Файл %s оновлено" % target)
+
+
+def main():
+    horoshop = load_horoshop()
+    if not horoshop:
+        sys.exit("Prom-фід Хорошопа порожній або недоступний — файли не чіпаємо")
+    print("Хорошоп: отримано позицій — %d" % len(horoshop))
+
+    stamp = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M")
+    for target, qty_tag in TARGETS:
+        patch_file(target, qty_tag, horoshop, stamp)
 
 
 if __name__ == "__main__":
