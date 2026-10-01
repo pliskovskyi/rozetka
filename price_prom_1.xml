@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-09-30 23:50">
+<yml_catalog date="2026-10-01 05:55">
   <shop>
    <name>TechFil</name>
    <company>TechFil</company>
@@ -142,7 +142,7 @@
      <price>695</price>
      <currencyId>UAH</currencyId>
      <categoryId>1055</categoryId>
-     <quantity_in_stock>18</quantity_in_stock>
+     <quantity_in_stock>16</quantity_in_stock>
      <picture>https://techfil.com.ua/content/images/43/petg074-1000-green-35505887122512_+5e139a3cbc.jpg</picture>
      <picture>https://techfil.com.ua/content/images/43/petg074-1000-green-94055088027670_+c5b2784b9e.jpg</picture>
      <picture>https://techfil.com.ua/content/images/43/petg074-1000-green-25087563911154_+1087ea240a.jpg</picture>
@@ -262,7 +262,7 @@
      <price>830</price>
      <currencyId>UAH</currencyId>
      <categoryId>1083</categoryId>
-     <quantity_in_stock>255</quantity_in_stock>
+     <quantity_in_stock>254</quantity_in_stock>
      <picture>https://techfil.com.ua/content/images/44/asa912-1000-black-53508618004520_+cbe6bf30c8.jpg</picture>
      <picture>https://techfil.com.ua/content/images/44/asa912-1000-black-62422656806770_+4e82aa6309.jpg</picture>
      <picture>https://techfil.com.ua/content/images/44/asa912-1000-black-45539965847564_+ff582715ce.jpg</picture>
@@ -280,7 +280,7 @@
      <price>830</price>
      <currencyId>UAH</currencyId>
      <categoryId>1083</categoryId>
-     <quantity_in_stock>100</quantity_in_stock>
+     <quantity_in_stock>95</quantity_in_stock>
      <picture>https://techfil.com.ua/content/images/1/asa912-1000-white-98897588624753_+e165c1536e.jpg</picture>
      <picture>https://techfil.com.ua/content/images/1/asa912-1000-white-84544810097508_+3e3dab3000.jpg</picture>
      <picture>https://techfil.com.ua/content/images/1/asa912-1000-white-96182628225581_+77e7d30226.jpg</picture>
@@ -314,7 +314,7 @@
      <price>740</price>
      <currencyId>UAH</currencyId>
      <categoryId>1083</categoryId>
-     <quantity_in_stock>3</quantity_in_stock>
+     <quantity_in_stock>2</quantity_in_stock>
      <picture>https://techfil.com.ua/content/images/3/75884230311631_+da74f439ff.jpg</picture>
      <picture>https://techfil.com.ua/content/images/3/asa912-1000-transit-80143065787507_+baa2bd4ea9.jpg</picture>
      <picture>https://techfil.com.ua/content/images/3/asa912-1000-transit-35859335304515_+f472ca4d0a.jpg</picture>
