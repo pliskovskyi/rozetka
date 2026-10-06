@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-10-05 18:28">
+<yml_catalog date="2026-10-06 00:49">
   <shop>
    <name>TechFil</name>
    <company>TechFil</company>
@@ -18,7 +18,7 @@
      <price>695</price>
      <currencyId>UAH</currencyId>
      <categoryId>1055</categoryId>
-     <quantity_in_stock>153</quantity_in_stock>
+     <quantity_in_stock>152</quantity_in_stock>
      <picture>https://techfil.com.ua/content/images/14/petg074-1000-black-84035774816387_+01e12907cb.jpg</picture>
      <picture>https://techfil.com.ua/content/images/14/petg074-1000-black-49809810093099_+1d4310b1d1.jpg</picture>
      <picture>https://techfil.com.ua/content/images/14/petg074-1000-black-30046836529726_+528daafbe1.jpg</picture>
@@ -53,7 +53,7 @@
      <price>695</price>
      <currencyId>UAH</currencyId>
      <categoryId>1055</categoryId>
-     <quantity_in_stock>38</quantity_in_stock>
+     <quantity_in_stock>33</quantity_in_stock>
      <picture>https://techfil.com.ua/content/images/33/petg074-1000-white-24000233845505_+a9b64c82d2.jpg</picture>
      <picture>https://techfil.com.ua/content/images/33/83944034563885_+1465908211.jpg</picture>
      <picture>https://techfil.com.ua/content/images/33/petg074-1000-white-59319335520012_+c630bc6692.jpg</picture>
@@ -71,7 +71,7 @@
      <price>695</price>
      <currencyId>UAH</currencyId>
      <categoryId>1055</categoryId>
-     <quantity_in_stock>42</quantity_in_stock>
+     <quantity_in_stock>41</quantity_in_stock>
      <picture>https://techfil.com.ua/content/images/34/petg074-1000-natural-72570222706493_+58cc5a3e44.jpg</picture>
      <picture>https://techfil.com.ua/content/images/34/63897442691315_+ca5132d356.jpg</picture>
      <picture>https://techfil.com.ua/content/images/34/petg074-1000-natural-48373601718561_+120c7bf977.jpg</picture>
@@ -125,7 +125,7 @@
      <price>695</price>
      <currencyId>UAH</currencyId>
      <categoryId>1055</categoryId>
-     <quantity_in_stock>16</quantity_in_stock>
+     <quantity_in_stock>70</quantity_in_stock>
      <picture>https://techfil.com.ua/content/images/41/petg074-1000-yellow-52614373880895_+1cef469b09.jpg</picture>
      <picture>https://techfil.com.ua/content/images/41/petg074-1000-yellow-95153498679912_+4de765771e.jpg</picture>
      <picture>https://techfil.com.ua/content/images/41/69629486025663_+cec66785fe.jpg</picture>
@@ -142,7 +142,7 @@
      <price>695</price>
      <currencyId>UAH</currencyId>
      <categoryId>1055</categoryId>
-     <quantity_in_stock>16</quantity_in_stock>
+     <quantity_in_stock>62</quantity_in_stock>
      <picture>https://techfil.com.ua/content/images/43/petg074-1000-green-35505887122512_+5e139a3cbc.jpg</picture>
      <picture>https://techfil.com.ua/content/images/43/petg074-1000-green-94055088027670_+c5b2784b9e.jpg</picture>
      <picture>https://techfil.com.ua/content/images/43/petg074-1000-green-25087563911154_+1087ea240a.jpg</picture>
@@ -172,12 +172,12 @@
      <description_ua><![CDATA[<p>Коричневий PETG Techfil 074 — теплий тон, який поєднується з деревом, шкірою і натуральними матеріалами природніше, ніж чорний чи сірий. Це звичайний PETG без наповнювача: поверхня гладка, деревного волокна в ньому немає.</p><h3>Де коричневий PETG доречний</h3><ul><li><strong>Інтер’єрний декор:</strong> рамки, підставки, органайзери — деталь не виглядає «надрукованою».</li><li><strong>Доповнення до дерев’яних виробів:</strong> ніжки, накладки, ручки, кріплення до меблів.</li><li><strong>Реквізит і моделізм:</strong> ґрунт, стовбури, елементи діорам і макетів.</li><li><strong>Подарунки та сувеніри:</strong> теплий колір виглядає дорожче за базовий чорний.</li></ul><h3>Чесно про особливості</h3><ul><li>Якщо з’явилася «павутина» між деталями — справа не в матеріалі, а у волозі та ретракції. Просушіть котушку і підберіть відкат, зазвичай 0,5–1,5 мм.</li><li>На склі прилипає дуже міцно — використовуйте розділювач або PEI-покриття, інакше можна відколоти скло.</li><li>PETG погано фарбується: акрил і емаль тримаються слабко. Якщо виріб потрібно пофарбувати — беріть ABS.</li><li>Закрита камера не потрібна, різкого запаху при друці немає.</li></ul><h3>Параметри друку</h3><table border="1" cellpadding="6" style="border-collapse:collapse;width:100%;margin:10px 0"><tbody><tr><th>Параметр</th><th>Значення</th></tr><tr><td>Температура сопла</td><td>240–270°C</td></tr><tr><td>Температура столу</td><td>60–80°C</td></tr><tr><td>Швидкість</td><td>40–150 мм/с</td></tr><tr><td>Обдув</td><td>0–40%</td></tr><tr><td>Закрита камера</td><td>Не обов'язково</td></tr></tbody></table><h3>Характеристики матеріалу</h3><table border="1" cellpadding="6" style="border-collapse:collapse;width:100%;margin:10px 0"><tbody><tr><th>Параметр</th><th>Значення</th></tr><tr><td>Сировина</td><td>Selenis Bondz GG074 (Португалія)</td></tr><tr><td>Міцність на розрив (ASTM D638)</td><td>52 МПа</td></tr><tr><td>Модуль пружності</td><td>2100 МПа</td></tr><tr><td>Видовження при розриві</td><td>120%</td></tr><tr><td>Tg (ASTM D3418)</td><td>80°C</td></tr><tr><td>HDT</td><td>70°C</td></tr><tr><td>Робоча температура виробів</td><td>від −20 до +65°C</td></tr><tr><td>Щільність (ASTM D-792)</td><td>1,29 г/см³</td></tr><tr><td>Харчовий допуск</td><td>EU Reg 10/2011 ✓</td></tr><tr><td>Діаметр / допуск</td><td>1,75 мм ±0,05 мм</td></tr><tr><td>Овальність</td><td>0,01–0,02 мм</td></tr></tbody></table><h3>Котушка</h3><table border="1" cellpadding="6" style="border-collapse:collapse;width:100%;margin:10px 0"><tbody><tr><th>Параметр</th><th>Значення</th></tr><tr><td>Зовнішній діаметр</td><td>200 мм</td></tr><tr><td>Внутрішній отвір</td><td>52 мм</td></tr><tr><td>Ширина котушки</td><td>60–65 мм</td></tr><tr><td>Матеріал</td><td>ХДФ на фанерних плашках або паперових гільзах, кріплення меблевими скобами (без клею)</td></tr><tr><td>Термостійкість котушки</td><td>до 110°C</td></tr><tr><td>Сумісність з AMS</td><td>Так</td></tr><tr><td>Пакування</td><td>Вакуум-пакет на кожну котушку окремо</td></tr></tbody></table><h3>Сушіння та зберігання</h3><ul><li><strong>Сушіння перед друком:</strong> 65°C, 4–6 годин.</li><li><strong>З виробництва котушка виходить просушеною і у вакуумі</strong> — перший друк можна починати одразу після розпакування.</li><li><strong>Зберігання після розпакування:</strong> пакет або бокс, що захищає від пилу.</li><li><strong>Скільки тримається сушіння:</strong> PETG набирає вологу за 2–3 дні. Якщо котушка лежала довше — просушіть повторно.</li></ul>]]></description_ua>
      <param name="Цвет">Коричневый</param>
     </offer>
-    <offer id="586" available="false">
+    <offer id="586" available="true">
      <url>https://techfil.com.ua/ru/petg074-1000-transit/</url>
      <price>605</price>
      <currencyId>UAH</currencyId>
      <categoryId>1055</categoryId>
-     <quantity_in_stock>0</quantity_in_stock>
+     <quantity_in_stock>1</quantity_in_stock>
      <picture>https://techfil.com.ua/content/images/37/petg074-1000-transit-29987014401663_+36565af7d8.jpg</picture>
      <picture>https://techfil.com.ua/content/images/37/petg074-1000-transit-39625854048387_+5b7b1c67b0.jpg</picture>
      <picture>https://techfil.com.ua/content/images/37/petg074-1000-transit-94215868597570_+86d663168a.jpg</picture>
