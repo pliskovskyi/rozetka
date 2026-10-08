@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-10-07 20:38">
+<yml_catalog date="2026-10-08 01:01">
   <shop>
    <name>TechFil</name>
    <company>TechFil</company>
@@ -18,7 +18,7 @@
      <price>695</price>
      <currencyId>UAH</currencyId>
      <categoryId>1055</categoryId>
-     <quantity_in_stock>152</quantity_in_stock>
+     <quantity_in_stock>151</quantity_in_stock>
      <picture>https://techfil.com.ua/content/images/14/petg074-1000-black-84035774816387_+01e12907cb.jpg</picture>
      <picture>https://techfil.com.ua/content/images/14/petg074-1000-black-49809810093099_+1d4310b1d1.jpg</picture>
      <picture>https://techfil.com.ua/content/images/14/petg074-1000-black-30046836529726_+528daafbe1.jpg</picture>
@@ -35,7 +35,7 @@
      <price>695</price>
      <currencyId>UAH</currencyId>
      <categoryId>1055</categoryId>
-     <quantity_in_stock>27</quantity_in_stock>
+     <quantity_in_stock>26</quantity_in_stock>
      <picture>https://techfil.com.ua/content/images/32/petg074-1000-grey-36642927785082_+976080ad6e.jpg</picture>
      <picture>https://techfil.com.ua/content/images/32/12886831441174_+04fe6b1960.jpg</picture>
      <picture>https://techfil.com.ua/content/images/32/petg074-1000-grey-97696515816529_+bbb45664c5.jpg</picture>
@@ -159,7 +159,7 @@
      <price>695</price>
      <currencyId>UAH</currencyId>
      <categoryId>1055</categoryId>
-     <quantity_in_stock>68</quantity_in_stock>
+     <quantity_in_stock>66</quantity_in_stock>
      <picture>https://techfil.com.ua/content/images/42/petg074-1000-brown-68816530161481_+b602d96886.jpg</picture>
      <picture>https://techfil.com.ua/content/images/42/65871633606165_+119539515e.jpg</picture>
      <picture>https://techfil.com.ua/content/images/42/petg074-1000-brown-54064014302666_+d59b31bc87.jpg</picture>
@@ -257,12 +257,12 @@
      <description_ua><![CDATA[<p>Сірий ABS Techfil 171 — це наш поточний сірий, який ми виробляємо постійно. Нейтральний технічний тон, стандартний для автомобільної та приладобудівної галузі: деталь виглядає заводською і не потребує фарбування. Якщо вам потрібен сірий ABS «щоб завжди був у наявності» — це саме він.</p><h3>Де сірий ABS 171 доречний</h3><ul><li><strong>Автомобільні деталі:</strong> накладки, кріплення, заглушки — сірий збігається з заводським пластиком салону.</li><li><strong>Корпуси приладів:</strong> нейтральний тон, на якому не видно дрібних подряпин.</li><li><strong>Оснастка й пристосування:</strong> кондуктори, шаблони, тримачі — витримують нагрів і навантаження.</li><li><strong>Деталі під фарбування:</strong> сірий працює як готовий ґрунт під темні кольори.</li></ul><h3>⚠ ABS вимагає замкнутої камери та вентиляції</h3><ul><li>Без термокамери великі деталі веде і розшаровує — чим більша площа деталі, тим сильніше.</li><li>При друці виділяються стирольні випари — приміщення має провітрюватися.</li><li>Адгезія до столу: прогрітий до 90–110°C стіл із покриттям (PEI або аналог) плюс адгезив для високотемпературних пластиків. Клей-олівець — як запасний варіант.</li><li>Добре фарбується, шліфується і склеюється ацетоном — на відміну від PETG.</li></ul><h3>Параметри друку</h3><table border="1" cellpadding="6" style="border-collapse:collapse;width:100%;margin:10px 0"><tbody><tr><th>Параметр</th><th>Значення</th></tr><tr><td>Температура сопла</td><td>240–280°C</td></tr><tr><td>Температура столу</td><td>90–110°C</td></tr><tr><td>Швидкість</td><td>40–80 мм/с</td></tr><tr><td>Обдув</td><td>0–15%</td></tr><tr><td>Закрита камера</td><td>⚠ ОБОВ'ЯЗКОВО</td></tr></tbody></table><h3>Характеристики матеріалу</h3><table border="1" cellpadding="6" style="border-collapse:collapse;width:100%;margin:10px 0"><tbody><tr><th>Параметр</th><th>Значення</th></tr><tr><td>Сировина</td><td>LG Chem ABS HP171 (Корея)</td></tr><tr><td>Міцність на розрив (ASTM D638)</td><td>49 МПа</td></tr><tr><td>Вигинальна міцність (ASTM D790)</td><td>69 МПа</td></tr><tr><td>Вигинальний модуль (ASTM D790)</td><td>2570 МПа</td></tr><tr><td>Ударна в'язкість Izod (ASTM D256, з надрізом)</td><td>24 Дж/м</td></tr><tr><td>HDT (ASTM D648, 0,45 МПа)</td><td>95°C</td></tr><tr><td>HDT (ASTM D648, 1,82 МПа)</td><td>80°C</td></tr><tr><td>Vicat (ASTM D1525, 50°C/h)</td><td>100°C</td></tr><tr><td>Робоча температура виробів</td><td>від −40 до +85°C</td></tr><tr><td>Ацетон</td><td>розчиняється — полірування, склейка</td></tr><tr><td>Діаметр / допуск</td><td>1,75 мм ±0,05 мм</td></tr><tr><td>Овальність</td><td>±0,03 мм</td></tr></tbody></table><h3>Котушка</h3><table border="1" cellpadding="6" style="border-collapse:collapse;width:100%;margin:10px 0"><tbody><tr><th>Параметр</th><th>Значення</th></tr><tr><td>Зовнішній діаметр</td><td>200 мм</td></tr><tr><td>Внутрішній отвір</td><td>52 мм</td></tr><tr><td>Ширина котушки</td><td>65–71 мм</td></tr><tr><td>Матеріал</td><td>ХДФ на фанерних плашках або паперових гільзах, кріплення меблевими скобами (без клею). Іноді — пластикова котушка тих самих габаритів</td></tr><tr><td>Термостійкість котушки</td><td>ХДФ — до 110°C; пластикова — до 75°C</td></tr><tr><td>Сумісність з AMS</td><td>Так</td></tr><tr><td>Пакування</td><td>Вакуум-пакет на кожну котушку окремо</td></tr></tbody></table><h3>Сушіння та зберігання</h3><ul><li><strong>Сушіння перед друком:</strong> 75°C, 4–6 годин.</li><li><strong>З виробництва котушка виходить просушеною і у вакуумі</strong> — перший друк можна починати одразу після розпакування.</li><li><strong>Зберігання після розпакування:</strong> пакет або бокс, що захищає від пилу.</li><li><strong>Скільки тримається сушіння:</strong> ABS набирає вологу протягом доби. Перед відповідальним друком сушіть заново.</li></ul>]]></description_ua>
      <param name="Цвет">Серый</param>
     </offer>
-    <offer id="543" available="false">
+    <offer id="543" available="true">
      <url>https://techfil.com.ua/ru/asa912-1000-black/</url>
      <price>830</price>
      <currencyId>UAH</currencyId>
      <categoryId>1083</categoryId>
-     <quantity_in_stock>0</quantity_in_stock>
+     <quantity_in_stock>91</quantity_in_stock>
      <picture>https://techfil.com.ua/content/images/44/asa912-1000-black-53508618004520_+cbe6bf30c8.jpg</picture>
      <picture>https://techfil.com.ua/content/images/44/asa912-1000-black-62422656806770_+4e82aa6309.jpg</picture>
      <picture>https://techfil.com.ua/content/images/44/asa912-1000-black-45539965847564_+ff582715ce.jpg</picture>
@@ -280,7 +280,7 @@
      <price>830</price>
      <currencyId>UAH</currencyId>
      <categoryId>1083</categoryId>
-     <quantity_in_stock>91</quantity_in_stock>
+     <quantity_in_stock>90</quantity_in_stock>
      <picture>https://techfil.com.ua/content/images/1/asa912-1000-white-98897588624753_+e165c1536e.jpg</picture>
      <picture>https://techfil.com.ua/content/images/1/asa912-1000-white-84544810097508_+3e3dab3000.jpg</picture>
      <picture>https://techfil.com.ua/content/images/1/asa912-1000-white-96182628225581_+77e7d30226.jpg</picture>
@@ -297,7 +297,7 @@
      <price>830</price>
      <currencyId>UAH</currencyId>
      <categoryId>1083</categoryId>
-     <quantity_in_stock>33</quantity_in_stock>
+     <quantity_in_stock>32</quantity_in_stock>
      <picture>https://techfil.com.ua/content/images/2/asa912-1000-grey-68207759613247_+37f25784fb.jpg</picture>
      <picture>https://techfil.com.ua/content/images/2/asa912-1000-grey-51340292099963_+54ad95340d.jpg</picture>
      <picture>https://techfil.com.ua/content/images/2/asa912-1000-grey-54545459788740_+4ebb6c382e.jpg</picture>
