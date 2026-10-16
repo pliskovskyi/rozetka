@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-10-15 23:41">
+<yml_catalog date="2026-10-16 04:33">
   <shop>
    <name>TechFil</name>
    <company>TechFil</company>
@@ -18,7 +18,7 @@
      <price>695</price>
      <currencyId>UAH</currencyId>
      <categoryId>1055</categoryId>
-     <quantity_in_stock>145</quantity_in_stock>
+     <quantity_in_stock>149</quantity_in_stock>
      <picture>https://techfil.com.ua/content/images/14/petg074-1000-black-84035774816387_+01e12907cb.jpg</picture>
      <picture>https://techfil.com.ua/content/images/14/petg074-1000-black-49809810093099_+1d4310b1d1.jpg</picture>
      <picture>https://techfil.com.ua/content/images/14/petg074-1000-black-30046836529726_+528daafbe1.jpg</picture>
@@ -71,7 +71,7 @@
      <price>695</price>
      <currencyId>UAH</currencyId>
      <categoryId>1055</categoryId>
-     <quantity_in_stock>40</quantity_in_stock>
+     <quantity_in_stock>41</quantity_in_stock>
      <picture>https://techfil.com.ua/content/images/34/petg074-1000-natural-72570222706493_+58cc5a3e44.jpg</picture>
      <picture>https://techfil.com.ua/content/images/34/63897442691315_+ca5132d356.jpg</picture>
      <picture>https://techfil.com.ua/content/images/34/petg074-1000-natural-48373601718561_+120c7bf977.jpg</picture>
@@ -125,7 +125,7 @@
      <price>695</price>
      <currencyId>UAH</currencyId>
      <categoryId>1055</categoryId>
-     <quantity_in_stock>69</quantity_in_stock>
+     <quantity_in_stock>70</quantity_in_stock>
      <picture>https://techfil.com.ua/content/images/41/petg074-1000-yellow-52614373880895_+1cef469b09.jpg</picture>
      <picture>https://techfil.com.ua/content/images/41/petg074-1000-yellow-95153498679912_+4de765771e.jpg</picture>
      <picture>https://techfil.com.ua/content/images/41/69629486025663_+cec66785fe.jpg</picture>
@@ -177,7 +177,7 @@
      <price>605</price>
      <currencyId>UAH</currencyId>
      <categoryId>1055</categoryId>
-     <quantity_in_stock>1</quantity_in_stock>
+     <quantity_in_stock>2</quantity_in_stock>
      <picture>https://techfil.com.ua/content/images/37/petg074-1000-transit-29987014401663_+36565af7d8.jpg</picture>
      <picture>https://techfil.com.ua/content/images/37/petg074-1000-transit-39625854048387_+5b7b1c67b0.jpg</picture>
      <picture>https://techfil.com.ua/content/images/37/petg074-1000-transit-94215868597570_+86d663168a.jpg</picture>
@@ -262,7 +262,7 @@
      <price>830</price>
      <currencyId>UAH</currencyId>
      <categoryId>1083</categoryId>
-     <quantity_in_stock>80</quantity_in_stock>
+     <quantity_in_stock>78</quantity_in_stock>
      <picture>https://techfil.com.ua/content/images/44/asa912-1000-black-53508618004520_+cbe6bf30c8.jpg</picture>
      <picture>https://techfil.com.ua/content/images/44/asa912-1000-black-62422656806770_+4e82aa6309.jpg</picture>
      <picture>https://techfil.com.ua/content/images/44/asa912-1000-black-45539965847564_+ff582715ce.jpg</picture>
@@ -280,7 +280,7 @@
      <price>830</price>
      <currencyId>UAH</currencyId>
      <categoryId>1083</categoryId>
-     <quantity_in_stock>89</quantity_in_stock>
+     <quantity_in_stock>79</quantity_in_stock>
      <picture>https://techfil.com.ua/content/images/1/asa912-1000-white-98897588624753_+e165c1536e.jpg</picture>
      <picture>https://techfil.com.ua/content/images/1/asa912-1000-white-84544810097508_+3e3dab3000.jpg</picture>
      <picture>https://techfil.com.ua/content/images/1/asa912-1000-white-96182628225581_+77e7d30226.jpg</picture>
