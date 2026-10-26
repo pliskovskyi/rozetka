@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-10-26 01:11">
+<yml_catalog date="2026-10-26 06:14">
   <shop>
    <name>TechFil</name>
    <company>TechFil</company>
@@ -35,7 +35,7 @@
      <price>695</price>
      <currencyId>UAH</currencyId>
      <categoryId>1055</categoryId>
-     <quantity_in_stock>24</quantity_in_stock>
+     <quantity_in_stock>35</quantity_in_stock>
      <picture>https://techfil.com.ua/content/images/32/petg074-1000-grey-36642927785082_+976080ad6e.jpg</picture>
      <picture>https://techfil.com.ua/content/images/32/12886831441174_+04fe6b1960.jpg</picture>
      <picture>https://techfil.com.ua/content/images/32/petg074-1000-grey-97696515816529_+bbb45664c5.jpg</picture>
@@ -89,7 +89,7 @@
      <price>695</price>
      <currencyId>UAH</currencyId>
      <categoryId>1055</categoryId>
-     <quantity_in_stock>11</quantity_in_stock>
+     <quantity_in_stock>33</quantity_in_stock>
      <picture>https://techfil.com.ua/content/images/35/petg074-1000-red-71237996712479_+a942d0ff61.jpg</picture>
      <picture>https://techfil.com.ua/content/images/35/91543500278460_+7685c959cc.jpg</picture>
      <picture>https://techfil.com.ua/content/images/35/petg074-1000-red-98659005855180_+421a56d902.jpg</picture>
@@ -245,7 +245,7 @@
      <price>830</price>
      <currencyId>UAH</currencyId>
      <categoryId>1056</categoryId>
-     <quantity_in_stock>32</quantity_in_stock>
+     <quantity_in_stock>35</quantity_in_stock>
      <picture>https://techfil.com.ua/content/images/44/32466920398101_+c37bfc8699.jpg</picture>
      <picture>https://techfil.com.ua/content/images/44/43343961793586_+a4b0d7e749.jpg</picture>
      <picture>https://techfil.com.ua/content/images/44/55529107420444_+f1d2f8c493.jpg</picture>
@@ -314,7 +314,7 @@
      <price>740</price>
      <currencyId>UAH</currencyId>
      <categoryId>1083</categoryId>
-     <quantity_in_stock>2</quantity_in_stock>
+     <quantity_in_stock>1</quantity_in_stock>
      <picture>https://techfil.com.ua/content/images/3/75884230311631_+da74f439ff.jpg</picture>
      <picture>https://techfil.com.ua/content/images/3/asa912-1000-transit-80143065787507_+baa2bd4ea9.jpg</picture>
      <picture>https://techfil.com.ua/content/images/3/asa912-1000-transit-35859335304515_+f472ca4d0a.jpg</picture>
